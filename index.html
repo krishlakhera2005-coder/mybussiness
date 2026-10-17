@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CloudSuite - Business Made Simple</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <a href="#" class="logo" aria-label="CloudSuite home">
+            <span class="logo-cloud">☁</span>
+            <span>CloudSuite</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#products">Products</a>
+            <a href="#industries">Industries</a>
+            <a href="#customers">Customers</a>
+            <a href="#learning">Learning</a>
+            <a href="#support">Support</a>
+            <a href="#more">More⌄</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="#contact" class="contact-link">Contact Us</a>
+            <button class="icon-btn" id="searchBtn"
+                    aria-label="Search">⌕</button>
+            <a href="#login" class="login-link">♟ Login</a>
+            <a href="#trial" class="try-btn">Try for free</a>
+        </div>
+
+    </header>
+
+    <!-- Announcement Bar -->
+    <div class="announcement">
+        <span>JUST LAUNCHED:</span>
+        Discover smarter tools to grow your business.
+        <a href="#products">Explore now →</a>
+    </div>
+
+    <!-- Hero Section -->
+    <main>
+
+        <section class="hero" id="trial">
+
+            <div class="hero-content">
+
+                <span class="eyebrow">YOUR BUSINESS. YOUR FUTURE.</span>
+
+                <h1>
+                    Grow your business<br>
+                    with <span>CloudSuite.</span>
+                </h1>
+
+                <p>
+                    Bring sales, customer service, and marketing
+                    together in one simple platform. Start building
+                    stronger customer relationships today.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="primary-btn">
+                        Start free trial
+                    </a>
+
+                    <button class="secondary-btn" id="demoBtn">
+                        ▶ Watch demo
+                    </button>
+                </div>
+
+                <p class="small-note">
+                    No installation required. Get started in minutes.
+                </p>
+
+            </div>
+
+            <!-- Hero Illustration -->
+            <div class="hero-visual">
+
+                <div class="visual-decoration decoration-one"></div>
+                <div class="visual-decoration decoration-two"></div>
+
+                <div class="dashboard">
+
+                    <div class="dashboard-top">
+                        <div class="mini-logo">☁ CloudSuite</div>
+                        <div class="avatar">JD</div>
+                    </div>
+
+                    <h3>Welcome back!</h3>
+                    <p class="dashboard-subtitle">
+                        Here's what's happening today.
+                    </p>
+
+                    <div class="stats">
+
+                        <div class="stat-card">
+                            <span>Revenue</span>
+                            <strong>₹2.4L</strong>
+                            <small>↗ 12.8%</small>
+                        </div>
+
+                        <div class="stat-card">
+                            <span>Customers</span>
+                            <strong>1,248</strong>
+                            <small>↗ 8.2%</small>
+                        </div>
+
+                    </div>
+
+                    <div class="chart-card">
+                        <strong>Business growth</strong>
+
+                        <div class="chart">
+                            <span style="height:35%"></span>
+                            <span style="height:55%"></span>
+                            <span style="height:42%"></span>
+                            <span style="height:72%"></span>
+                            <span style="height:62%"></span>
+                            <span style="height:88%"></span>
+                            <span style="height:100%"></span>
+                        </div>
+
+                        <div class="chart-labels">
+                            <span>Mon</span>
+                            <span>Tue</span>
+                            <span>Wed</span>
+                            <span>Thu</span>
+                            <span>Fri</span>
+                            <span>Sat</span>
+                            <span>Sun</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="floating-card">
+                    <span class="floating-icon">✓</span>
+                    <div>
+                        <strong>Great progress!</strong>
+                        <p>Your business is growing.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Products Section -->
+        <section class="products-section" id="products">
+
+            <div class="section-heading">
+                <span class="eyebrow">ONE PLATFORM. MANY POSSIBILITIES.</span>
+
+                <h2>
+                    Discover what our products<br>
+                    can do for you
+                </h2>
+
+                <p>
+                    Everything you need to connect with customers
+                    and grow your business.
+                </p>
+            </div>
+
+            <div class="product-grid">
+
+                <!-- Product 1 -->
+                <article class="product-card blue-card" id="industries">
+                    <div class="card-art">
+                        <div class="product-icon">🏪</div>
+                    </div>
+
+                    <div class="product-content">
+                        <h3>Small Business</h3>
+
+                        <p>
+                            Manage customers, sales, and daily business
+                            tasks from one convenient place.
+                        </p>
+
+                        <a href="#contact" class="learn-link">
+                            Learn more →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card green-card" id="customers">
+                    <div class="card-art">
+                        <div class="product-icon">📈</div>
+                    </div>
+
+                    <div class="product-content">
+                        <h3>Sales Cloud</h3>
+
+                        <p>
+                            Organize leads, track opportunities, and
+                            help your sales team close more deals.
+                        </p>
+
+                        <a href="#contact" class="learn-link">
+                            Learn more →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card pink-card" id="support">
+                    <div class="card-art">
+                        <div class="product-icon">💗</div>
+                    </div>
+
+                    <div class="product-content">
+                        <h3>Service Cloud</h3>
+
+                        <p>
+                            Support your customers faster and build
+                            lasting relationships with them.
+                        </p>
+
+                        <a href="#contact" class="learn-link">
+                            Learn more →
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Product 4 -->
+                <article class="product-card orange-card" id="learning">
+                    <div class="card-art">
+                        <div class="product-icon">🎯</div>
+                    </div>
+
+                    <div class="product-content">
+                        <h3>Marketing Cloud</h3>
+
+                        <p>
+                            Create campaigns, reach the right audience,
+                            and improve customer engagement.
+                        </p>
+
+                        <a href="#contact" class="learn-link">
+                            Learn more →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="all-products">
+                <a href="#more" class="outline-btn">
+                    View all our products →
+                </a>
+            </div>
+
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section" id="more">
+
+            <h2>Ready to grow your business?</h2>
+
+            <p>
+                Explore a simpler way to manage customers and work.
+            </p>
+
+            <a href="#contact" class="primary-btn">
+                Get started today
+            </a>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+
+            <h2>Let's connect</h2>
+
+            <p>
+                Interested in our platform? Send us a message.
+            </p>
+
+            <form id="contactForm">
+
+                <input type="text" id="userName"
+                       placeholder="Your name" required>
+
+                <input type="email" id="userEmail"
+                       placeholder="Your email address" required>
+
+                <textarea id="userMessage"
+                          placeholder="How can we help?"
+                          rows="4" required></textarea>
+
+                <button type="submit" class="primary-btn">
+                    Send message
+                </button>
+
+                <p id="formMessage" class="form-message"
+                   aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="login">
+
+        <a href="#" class="footer-logo">☁ CloudSuite</a>
+
+        <p>
+            Helping businesses build better customer relationships.
+        </p>
+
+        <div class="footer-links">
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+            <a href="#support">Support</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 CloudSuite. Demo website for learning purposes.
+        </p>
+
+    </footer>
+
+</body>
+</html>
